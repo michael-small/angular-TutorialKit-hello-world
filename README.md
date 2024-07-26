@@ -1,5 +1,9 @@
 # TutorialKit Starter
 
+## Thread where I explain what to do to get an Angular project working
+
+https://x.com/SCooperDev/status/1816749422492995800
+
 👋 Welcome to TutorialKit!
 
 This README includes everything you need to start writing your tutorial content quickly.
