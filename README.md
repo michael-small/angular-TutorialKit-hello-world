@@ -4,7 +4,7 @@ Thread where I explain what to do to get an Angular project working
 
 https://x.com/SCooperDev/status/1816749422492995800
 
-Overall, do these 3 things
+Overall, do these steps
 
 - Read the blog announcement: https://blog.stackblitz.com/posts/announcing-tutorialkit/
 - Follow the step by step on installing and making your first project: https://tutorialkit.dev/guides/about/
