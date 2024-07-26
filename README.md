@@ -17,7 +17,7 @@ Overall, do these 3 things
 > 
 > May have been a my PC thing, but I recommend deleting your `node_modules` the `ng new app` auto generates. When you run the docs app command, you can install using your preferred installer. I had permission issues for that command to overwrite the original generated modules.
 > 
-> The commands for the install and serve go in the `root/src/content/tutorial/meta.md`. Oh, and the file overrides I mentioned, point the intended path in the `http://contend.md` in the same folder as the `_files/_solution` folders.
+> The commands for the install and serve go in the `root/src/content/tutorial/meta.md`. Oh, and the file overrides I mentioned, point the intended path in the `contend.md` in the same folder as the `_files/_solution` folders.
 > 
 > Lastly, the CLI experience from the docs does most of this setup of everything else. I inferred the rest of this stuff I figured out from this section of the new project walkthrough doc: https://tutorialkit.dev/guides/overriding-components/
 
