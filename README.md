@@ -1,8 +1,15 @@
-# TutorialKit Starter
+# TutorialKit Starter (my experience getting Angular started)
 
-## Thread where I explain what to do to get an Angular project working
+Thread where I explain what to do to get an Angular project working
 
 https://x.com/SCooperDev/status/1816749422492995800
+
+Overall, do these 3 things
+
+- Read the blog announcement: https://blog.stackblitz.com/posts/announcing-tutorialkit/
+- Follow the step by step on installing and making your first project: https://tutorialkit.dev/guides/about/
+- Once you are done with the "Content Creation" section of the docs guide, skip to "Overriding Components" and read that.
+- Everything below is my experience to briding the gap between what is outlined in "Overriding Components" and getting a basic Angular example running
 
 > https://github.com/michael-small/angular-TutorialKit-hello-world my git config was messed up on my PC, so the git history is not as discreet step by step as I wished it was. I assume someone will make framework starters.
 >
@@ -13,6 +20,8 @@ https://x.com/SCooperDev/status/1816749422492995800
 > The commands for the install and serve go in the `root/src/content/tutorial/meta.md`. Oh, and the file overrides I mentioned, point the intended path in the `http://contend.md` in the same folder as the `_files/_solution` folders.
 > 
 > Lastly, the CLI experience from the docs does most of this setup of everything else. I inferred the rest of this stuff I figured out from this section of the new project walkthrough doc: https://tutorialkit.dev/guides/overriding-components/
+
+--- 
 
 👋 Welcome to TutorialKit!
 
