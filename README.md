@@ -1,4 +1,27 @@
-# TutorialKit Starter
+# TutorialKit Starter (my experience getting Angular started)
+
+Thread where I explain what to do to get an Angular project working
+
+https://x.com/SCooperDev/status/1816749422492995800
+
+Overall, do these steps
+
+- Read the blog announcement: https://blog.stackblitz.com/posts/announcing-tutorialkit/
+- Follow the step by step on installing and making your first project: https://tutorialkit.dev/guides/about/
+- Once you are done with the "Content Creation" section of the docs guide, skip to "Overriding Components" and read that.
+- Everything below is my experience to briding the gap between what is outlined in "Overriding Components" and getting a basic Angular example running
+
+> https://github.com/michael-small/angular-TutorialKit-hello-world my git config was messed up on my PC, so the git history is not as discreet step by step as I wished it was. I assume someone will make framework starters.
+>
+> Essentially, in the `src/templates`, I CLI generated a new Angular project. Then, in the `content/turorial/1-basics/1-introduction/1-welcome`, there is `_files/` and `_solution/`. Then I do the path of the file I want to override. In this case, `src/app/app.component.html`.
+> 
+> May have been a my PC thing, but I recommend deleting your `node_modules` the `ng new app` auto generates. When you run the docs app command, you can install using your preferred installer. I had permission issues for that command to overwrite the original generated modules.
+> 
+> The commands for the install and serve go in the `root/src/content/tutorial/meta.md`. Oh, and the file overrides I mentioned, point the intended path in the `contend.md` in the same folder as the `_files` and `_solution` folders.
+> 
+> Lastly, the CLI experience from the docs does most of this setup of everything else. I inferred the rest of this stuff I figured out from this section of the new project walkthrough doc: https://tutorialkit.dev/guides/overriding-components/
+
+--- 
 
 👋 Welcome to TutorialKit!
 
