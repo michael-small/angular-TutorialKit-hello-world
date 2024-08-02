@@ -6,4 +6,13 @@ focus: /app.component.html
 
 # About This Tutorial
 
-d
+Signals are sick
+
+```ts
+$number = signal(3) ; // 3
+$doubleNumber = computed(() => this.$number() * 2); // 6
+$stuff = signal('whoa'); // 'whoa'
+$stuffCaps = computed(() => {
+    return this.$stuff().toUpperCase(); // WHOA
+});
+```
