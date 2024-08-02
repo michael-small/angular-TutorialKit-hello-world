@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterModule, RouterOutlet } from '@angular/router';
-import {Router} from "@angular/router"
+import { Router, RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,16 +7,16 @@ import {Router} from "@angular/router"
   imports: [RouterOutlet, RouterModule],
   template: `
     <ul>
-      <li><a [routerLink]="['/account', 1]">Account 1</a></li>
-      <li><a [routerLink]="['/account', 2]">Account 2</a></li>
-      <li><a [routerLink]="['/account', 3]">Account 3</a></li>
+      <li><a [routerLink]="['/paramsAccount', 1]">Params Account 1</a></li>
+      <li><a [routerLink]="['/paramsAccount', 2]">Params Account 2</a></li>
+      <li><a [routerLink]="['/paramsAccount', 3]">Params Account 3</a></li>
     </ul>
 
     <router-outlet />
   `,
 })
 export class AppComponent {
-    constructor(private router: Router) {
-        this.router.navigateByUrl('')
-      }
+  constructor(private router: Router) {
+    this.router.navigateByUrl('');
+  }
 }

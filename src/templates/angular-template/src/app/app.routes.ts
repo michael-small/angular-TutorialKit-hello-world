@@ -5,5 +5,4 @@ import { AccountDetailComponent as AccountDetailComponentB } from './components/
 export const routes: Routes = [
   { path: 'paramsAccount/:id', component: AccountDetailComponentA },
   { path: 'queryParamsAccount/:id', component: AccountDetailComponentB },
-  { path: '', redirectTo: '/', pathMatch: 'full' },
 ];

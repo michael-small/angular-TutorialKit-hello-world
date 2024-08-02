@@ -17,8 +17,6 @@ import {Router} from "@angular/router"
   `,
 })
 export class AppComponent {
-  title = 'angular-template';
-
   constructor(private router: Router) {
     this.router.navigateByUrl('')
   }
