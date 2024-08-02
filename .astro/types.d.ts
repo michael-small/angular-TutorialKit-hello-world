@@ -136,6 +136,27 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"tutorial": {
+"1-basics copy 2/1-introduction/1-welcome/content.mdx": {
+	id: "1-basics copy 2/1-introduction/1-welcome/content.mdx";
+  slug: "1-basics-copy-2/1-introduction/1-welcome/content";
+  body: string;
+  collection: "tutorial";
+  data: InferEntrySchema<"tutorial">
+} & { render(): Render[".mdx"] };
+"1-basics copy 2/1-introduction/meta.md": {
+	id: "1-basics copy 2/1-introduction/meta.md";
+  slug: "1-basics-copy-2/1-introduction/meta";
+  body: string;
+  collection: "tutorial";
+  data: InferEntrySchema<"tutorial">
+} & { render(): Render[".md"] };
+"1-basics copy 2/meta.md": {
+	id: "1-basics copy 2/meta.md";
+  slug: "1-basics-copy-2/meta";
+  body: string;
+  collection: "tutorial";
+  data: InferEntrySchema<"tutorial">
+} & { render(): Render[".md"] };
 "1-basics copy/1-introduction/1-welcome/content.mdx": {
 	id: "1-basics copy/1-introduction/1-welcome/content.mdx";
   slug: "1-basics-copy/1-introduction/1-welcome/content";

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
+import {Router} from "@angular/router"
 
 @Component({
   selector: 'app-root',
@@ -11,9 +12,12 @@ import { RouterModule, RouterOutlet } from '@angular/router';
       <li><a [routerLink]="['/account', 2]">Account 2</a></li>
       <li><a [routerLink]="['/account', 3]">Account 3</a></li>
     </ul>
+
     <router-outlet />
   `,
 })
 export class AppComponent {
-  title = 'angular-template';
+    constructor(private router: Router) {
+        this.router.navigateByUrl('')
+      }
 }
