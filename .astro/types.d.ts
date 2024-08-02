@@ -136,37 +136,37 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"tutorial": {
-"1-basics copy 2/1-introduction/1-welcome/content.mdx": {
-	id: "1-basics copy 2/1-introduction/1-welcome/content.mdx";
-  slug: "1-basics-copy-2/1-introduction/1-welcome/content";
-  body: string;
-  collection: "tutorial";
-  data: InferEntrySchema<"tutorial">
-} & { render(): Render[".mdx"] };
-"1-basics copy 2/1-introduction/2-welcome/content.mdx": {
-	id: "1-basics copy 2/1-introduction/2-welcome/content.mdx";
-  slug: "1-basics-copy-2/1-introduction/2-welcome/content";
-  body: string;
-  collection: "tutorial";
-  data: InferEntrySchema<"tutorial">
-} & { render(): Render[".mdx"] };
-"1-basics copy 2/1-introduction/meta.md": {
-	id: "1-basics copy 2/1-introduction/meta.md";
-  slug: "1-basics-copy-2/1-introduction/meta";
-  body: string;
-  collection: "tutorial";
-  data: InferEntrySchema<"tutorial">
-} & { render(): Render[".md"] };
-"1-basics copy 2/meta.md": {
-	id: "1-basics copy 2/meta.md";
-  slug: "1-basics-copy-2/meta";
-  body: string;
-  collection: "tutorial";
-  data: InferEntrySchema<"tutorial">
-} & { render(): Render[".md"] };
 "meta.md": {
 	id: "meta.md";
   slug: "meta";
+  body: string;
+  collection: "tutorial";
+  data: InferEntrySchema<"tutorial">
+} & { render(): Render[".md"] };
+"ngxtension/injectables/injectParams/content.mdx": {
+	id: "ngxtension/injectables/injectParams/content.mdx";
+  slug: "ngxtension/injectables/injectparams/content";
+  body: string;
+  collection: "tutorial";
+  data: InferEntrySchema<"tutorial">
+} & { render(): Render[".mdx"] };
+"ngxtension/injectables/injectQueryParams/content.mdx": {
+	id: "ngxtension/injectables/injectQueryParams/content.mdx";
+  slug: "ngxtension/injectables/injectqueryparams/content";
+  body: string;
+  collection: "tutorial";
+  data: InferEntrySchema<"tutorial">
+} & { render(): Render[".mdx"] };
+"ngxtension/injectables/meta.md": {
+	id: "ngxtension/injectables/meta.md";
+  slug: "ngxtension/injectables/meta";
+  body: string;
+  collection: "tutorial";
+  data: InferEntrySchema<"tutorial">
+} & { render(): Render[".md"] };
+"ngxtension/meta.md": {
+	id: "ngxtension/meta.md";
+  slug: "ngxtension/meta";
   body: string;
   collection: "tutorial";
   data: InferEntrySchema<"tutorial">
