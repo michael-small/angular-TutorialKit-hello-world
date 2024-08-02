@@ -1,5 +1,5 @@
 ---
 type: chapter
-title: Introduction
+title: injectables
 template: angular-template
 ---
