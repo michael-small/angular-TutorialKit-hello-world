@@ -6,6 +6,8 @@ https://x.com/SCooperDev/status/1816749422492995800
 
 Overall, do these steps
 
+EDIT 8/1/24 - don't install from the Angular template, just pull the dependencies into the root of the repo's `package.json`
+
 - Read the blog announcement: https://blog.stackblitz.com/posts/announcing-tutorialkit/
 - Follow the step by step on installing and making your first project: https://tutorialkit.dev/guides/about/
 - Once you are done with the "Content Creation" section of the docs guide, skip to "Overriding Components" and read that.
