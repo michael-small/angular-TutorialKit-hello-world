@@ -17,6 +17,6 @@ import { Router, RouterModule, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   constructor(private router: Router) {
-    this.router.navigateByUrl('');
+    this.router.navigateByUrl('/');
   }
 }
