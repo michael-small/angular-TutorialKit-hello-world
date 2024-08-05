@@ -157,6 +157,13 @@ declare module 'astro:content' {
   collection: "tutorial";
   data: InferEntrySchema<"tutorial">
 } & { render(): Render[".md"] };
+"ngxtension/directives/repeat/content.mdx": {
+	id: "ngxtension/directives/repeat/content.mdx";
+  slug: "ngxtension/directives/repeat/content";
+  body: string;
+  collection: "tutorial";
+  data: InferEntrySchema<"tutorial">
+} & { render(): Render[".mdx"] };
 "ngxtension/injectables/injectActiveElement/content.mdx": {
 	id: "ngxtension/injectables/injectActiveElement/content.mdx";
   slug: "ngxtension/injectables/injectactiveelement/content";
