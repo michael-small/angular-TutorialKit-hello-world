@@ -1,5 +1,7 @@
 # TutorialKit Starter (my experience getting Angular started)
 
+## [Deployment](https://ng-tutkit-ngxtension-ms.web.app/ngxtension/injectables/injectparams/)
+
 Thread where I explain what to do to get an Angular project working
 
 https://x.com/SCooperDev/status/1816749422492995800
